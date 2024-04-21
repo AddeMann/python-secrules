@@ -1,5 +1,4 @@
 # python-secrules
-# OWASP CRS Rules parser
 
 Incomplete parser model and sample application for parsing [Core Rule Set](https://github.com/coreruleset/coreruleset/) written in the ModSecurity DSL SecRule language. It uses the python library [textX](http://www.igordejanovic.net/textX/) for parsing.
 
