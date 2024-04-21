@@ -1,6 +1,6 @@
 # python-secrules
 
-Incomplete parser model and sample application for parsing [Core Rule Set](https://github.com/coreruleset/coreruleset/) written in the ModSecurity DSL SecRule language. It uses the python library [textX](http://www.igordejanovic.net/textX/) for parsing.
+Incomplete parser for [Core Rule Set](https://github.com/coreruleset/coreruleset/) written in the ModSecurity DSL SecRule language. It uses the python library [textX](http://www.igordejanovic.net/textX/) for parsing.
 
 ## How to use it (CLI):
 
@@ -25,3 +25,6 @@ rules = config.__secrules__
 rule = rules[0]
 rule = rule.actions, rule.operator, rule.variables
 ```
+
+# Original repository
+[secrules_parsing](https://github.com/coreruleset/secrules_parsing)
